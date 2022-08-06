@@ -19,7 +19,7 @@
           >;
         };layer1 {
           bindings = <
-          &kp GRAVE &trans &trans &kp KP_SLASH &kp KP_ASTERISK &kp KP_MINUS &kp TILDE &kp EXCL &kp DOLLAR &kp PERCENT &kp CARET &trans &kp CAPSLOCK &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &kp EQUAL &kp MINUS &kp PIPE &trans &kp LEFT_SHIFT &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_COMMA &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp AT &kp HASH &trans &kp RIGHT_SHIFT &kp LEFT_ALT &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL &trans &trans &kp LESS_THAN &kp GREATER_THAN &trans &trans &trans &trans &kp LEFT_CONTROL &kp LEFT_GUI &trans &kp BACKSPACE &kp BACKSPACE &mo 3 &trans &kp RIGHT_CONTROL
+          &kp GRAVE &ext_power EP_TOG &trans &kp KP_SLASH &kp KP_ASTERISK &kp KP_MINUS &kp TILDE &kp EXCL &kp DOLLAR &kp PERCENT &kp CARET &trans &kp CAPSLOCK &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_PLUS &kp LEFT_BRACE &kp RIGHT_BRACE &kp EQUAL &kp MINUS &kp PIPE &trans &kp LEFT_SHIFT &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_COMMA &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp AT &kp HASH &trans &kp RIGHT_SHIFT &kp LEFT_ALT &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL &trans &trans &kp LESS_THAN &kp GREATER_THAN &trans &trans &trans &trans &kp LEFT_CONTROL &kp LEFT_GUI &trans &kp BACKSPACE &kp BACKSPACE &mo 3 &trans &kp RIGHT_CONTROL
           >;
         };layer2 {
           bindings = <
