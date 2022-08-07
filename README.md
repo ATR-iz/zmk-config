@@ -1,12 +1,10 @@
 # zmk-config
 
+Use for configuration keymap
 https://config.qmk.fm/#/lily58/rev1/LAYOUT
 
-https://github.com/ATR-iz/qmk-to-zmk
+Use for convertation qmk keymap to zmk keymap
+https://atr-iz.github.io/qmk-to-zmk/
 
 ### Keymap
-<<<<<<< HEAD
 <img src="/image/keymap1.png" alt="Keymap"/>
-=======
-<img src="/image/keymap.png" alt="Keymap"/>
->>>>>>> 0d2996c7867fc0f23a1074a68d15afe1986506d6
