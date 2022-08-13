@@ -3,7 +3,7 @@
   "notes": "Моя потрясающая раскладка",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "lily58/rev1",
-  "keymap": "lily58_rev1_layout_mine",
+  "keymap": "lily58_rev1_lily58_rev1_layout_mine",
   "layout": "LAYOUT",
   "layers": [
     [
@@ -57,14 +57,14 @@
       "KC_DOT",
       "KC_SLSH",
       "KC_QUOT",
-      "KC_LGUI",
       "KC_LCTL",
+      "KC_LGUI",
       "MO(1)",
       "KC_SPC",
       "KC_ENT",
       "MO(2)",
-      "KC_RCTL",
-      "KC_RGUI"
+      "KC_RGUI",
+      "KC_RCTL"
     ],
     [
       "KC_GRV",
@@ -127,7 +127,7 @@
       "KC_TRNS"
     ],
     [
-      "KC_NO",
+      "KC_GRV",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -187,15 +187,9 @@
       "KC_TRNS"
     ],
     [
+      "KC_NO",
       "ANY(&out OUT_USB)",
       "ANY(&out OUT_BLE)",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -205,6 +199,12 @@
       "ANY(&bt BT_SEL 2)",
       "ANY(&bt BT_SEL 3)",
       "ANY(&bt BT_SEL 4)",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
       "KC_NO",
       "KC_NO",
       "KC_NO",
