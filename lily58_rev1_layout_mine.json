@@ -127,7 +127,7 @@
       "KC_TRNS"
     ],
     [
-      "KC_NO",
+      "KC_GRV",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -187,15 +187,9 @@
       "KC_TRNS"
     ],
     [
+      "KC_NO",
       "ANY(&out OUT_USB)",
       "ANY(&out OUT_BLE)",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -205,6 +199,12 @@
       "ANY(&bt BT_SEL 2)",
       "ANY(&bt BT_SEL 3)",
       "ANY(&bt BT_SEL 4)",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
       "KC_NO",
       "KC_NO",
       "KC_NO",

@@ -8,7 +8,6 @@
   #include <behaviors.dtsi>
   #include <dt-bindings/zmk/keys.h>
   #include <dt-bindings/zmk/bt.h>
-  #include <dt-bindings/zmk/ext_power.h>
   #include <dt-bindings/zmk/outputs.h>
 
   / {
@@ -24,11 +23,11 @@
           >;
         };layer2 {
           bindings = <
-          &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans &kp F20 &kp F1 &kp F2 &kp F3 &kp F4 &kp F20 &kp INSERT &kp PAGE_UP &kp UP &kp F20 &kp F20 &kp F20 &trans &kp F5 &kp F6 &kp F7 &kp F8 &kp F20 &kp HOME &kp LEFT &kp DOWN &kp RIGHT &kp END &trans &trans &kp F9 &kp F10 &kp F11 &kp F12 &kp F20 &kp F20 &trans &kp DELETE &kp PAGE_DOWN &kp F20 &kp F20 &kp F20 &kp F20 &trans &trans &mo 3 &kp BACKSPACE &kp BACKSPACE &trans &trans &trans
+          &kp GRAVE &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &trans &kp F20 &kp F1 &kp F2 &kp F3 &kp F4 &kp F20 &kp INSERT &kp PAGE_UP &kp UP &kp F20 &kp F20 &kp F20 &trans &kp F5 &kp F6 &kp F7 &kp F8 &kp F20 &kp HOME &kp LEFT &kp DOWN &kp RIGHT &kp END &trans &trans &kp F9 &kp F10 &kp F11 &kp F12 &kp F20 &kp F20 &trans &kp DELETE &kp PAGE_DOWN &kp F20 &kp F20 &kp F20 &kp F20 &trans &trans &mo 3 &kp BACKSPACE &kp BACKSPACE &trans &trans &trans
           >;
         };layer3 {
           bindings = <
-          &out OUT_USB &out OUT_BLE &ext_power EP_TOG &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20
+          &kp F20 &out OUT_USB &out OUT_BLE &kp F20 &kp F20 &kp F20 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp F20
           >;
         };
     };
